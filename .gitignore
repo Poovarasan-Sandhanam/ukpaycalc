@@ -1,0 +1,118 @@
+# ==========================================
+# React Native & Node.js (.gitignore)
+# ==========================================
+
+# Dependencies & Package Managers
+node_modules/
+vendor/
+.bundle/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+.lerna/
+
+# Environment Variables & Security Keys
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+*.pem
+*.crt
+*.pub
+*.key
+*.p12
+*.p8
+*.pfx
+*.pkcs12
+*.asc
+secring.gpg
+sentry.properties
+aws-services.json
+
+# OS & System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# IDEs & Code Editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.ruby-lsp/
+
+# Testing & Cache
+coverage/
+.jest/
+*.tsbuildinfo
+.metro-health-check*
+metro-bundler-*
+.expo/
+
+# ==========================================
+# Android
+# ==========================================
+android/.gradle/
+android/build/
+android/app/build/
+android/captures/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/*.iml
+
+# Android Keystores & Certificates (Keep debug.keystore for dev if needed)
+*.keystore
+*.jks
+!android/app/debug.keystore
+
+# Android Firebase Configuration
+android/app/google-services.json
+!android/app/google-services.json.example
+
+# ==========================================
+# iOS
+# ==========================================
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/.xcode.env.local
+*.xcuserdata
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# iOS Provisioning Profiles & Certificates
+*.mobileprovision
+*.provisionprofile
+*.cer
+
+# iOS Firebase Configuration
+ios/GoogleService-Info.plist
+ios/*/GoogleService-Info.plist
+!ios/GoogleService-Info.plist.example
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output

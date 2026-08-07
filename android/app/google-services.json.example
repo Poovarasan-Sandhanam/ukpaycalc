@@ -1,0 +1,24 @@
+{
+  "project_info": {
+    "project_number": "123456789000",
+    "project_id": "ukpaycalc-example",
+    "storage_bucket": "ukpaycalc-example.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123456789000:android:abcdef1234567890",
+        "android_client_info": {
+          "package_name": "com.ukpaycalc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_ANDROID_FIREBASE_API_KEY_HERE"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
