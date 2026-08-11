@@ -20,7 +20,6 @@ export const HolidayScreen = () => {
   const {
     control,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<HolidayFormValues>({
     resolver: holidayResolver,

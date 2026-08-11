@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { colors, borderRadius, spacing, fontSize, shadows } from '../theme';
+import { colors, borderRadius, spacing, fontSize } from '../theme';
 
 export const settingsStyles = StyleSheet.create({
   screenContainer: {

@@ -1,0 +1,35 @@
+default_platform(:android)
+
+platform :android do
+  desc "Build APK (Debug or Release)"
+  lane :build_apk do |options|
+    build_type = options[:type] || "Release"
+    gradle(
+      task: "assemble",
+      build_type: build_type,
+      project_dir: "android/"
+    )
+  end
+
+  desc "Build Android App Bundle (AAB)"
+  lane :build_aab do
+    gradle(
+      task: "bundle",
+      build_type: "Release",
+      project_dir: "android/"
+    )
+  end
+
+  desc "Deploy Release AAB to Google Play Internal Track"
+  lane :deploy_internal do
+    build_aab
+    upload_to_play_store(
+      track: "internal",
+      aab: "android/app/build/outputs/bundle/release/app-release.aab",
+      skip_upload_apk: true,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+end

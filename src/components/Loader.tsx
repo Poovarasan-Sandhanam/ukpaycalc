@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ActivityIndicator, Modal, StyleProp, ViewStyle } from 'react-native';
+import { View, Text, ActivityIndicator, StyleProp, ViewStyle } from 'react-native';
 import { colors } from '../styles/theme';
 import { loaderStyles as styles } from '../styles/components/loaderStyles';
 

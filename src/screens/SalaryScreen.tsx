@@ -24,7 +24,6 @@ export const SalaryScreen = () => {
   const {
     control,
     handleSubmit,
-    watch,
     reset,
     formState: { errors },
   } = useForm<SalaryFormValues>({
@@ -57,8 +56,6 @@ export const SalaryScreen = () => {
     });
     setResult(null);
   }, [preferences, reset]);
-
-  const payFrequency = watch('payFrequency');
 
   const onSubmit = (data: SalaryFormValues) => {
     setIsCalculating(true);
