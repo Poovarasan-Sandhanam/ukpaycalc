@@ -2472,7 +2472,7 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 2234668e2451f9da37b93dad7830e457600c008f
   GoogleDataTransport: a24e58982ab3ba2f64d79613e027fe7f57e88539
   GoogleUtilities: 766ace00c6b10d8148408f329d10c4f051931850
-  hermes-engine: 0321dc3b09d54533f0efcded73e6e15ecbd9394b
+  hermes-engine: d7d4026565083f51d94ca842dcdee1165547341b
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   PromisesObjC: 752c3227f599e3467650e47ea36f433eeb10c273
   PromisesSwift: 217dea0fd5d2ad65222a109c48698add13cc1c5b

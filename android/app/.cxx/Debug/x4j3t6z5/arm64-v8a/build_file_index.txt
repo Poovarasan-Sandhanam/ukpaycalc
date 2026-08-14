@@ -1,0 +1,8 @@
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/analytics/android/src/reactnative/java/io/invertase/firebase/analytics/generated/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/app/android/src/reactnative/java/io/invertase/firebase/app/generated/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/crashlytics/android/src/main/java/io/invertase/firebase/crashlytics/generated/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt
+/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt

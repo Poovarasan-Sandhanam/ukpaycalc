@@ -1,0 +1,238 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "AsyncStorageSpec_autolinked_build",
+					"jsonFile" : "directory-AsyncStorageSpec_autolinked_build-Debug-e2a16a1a1849f6b1140b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "RNFBAnalyticsTurboModules_autolinked_build",
+					"jsonFile" : "directory-RNFBAnalyticsTurboModules_autolinked_build-Debug-2147c3777cd926edd85a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/analytics/android/src/reactnative/java/io/invertase/firebase/analytics/generated/jni",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "RNFBAppTurboModules_autolinked_build",
+					"jsonFile" : "directory-RNFBAppTurboModules_autolinked_build-Debug-e243338c7974be28d1bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/app/android/src/reactnative/java/io/invertase/firebase/app/generated/jni",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "RNFBCrashlyticsTurboModules_autolinked_build",
+					"jsonFile" : "directory-RNFBCrashlyticsTurboModules_autolinked_build-Debug-9ccc35afdbd5678d874d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/crashlytics/android/src/main/java/io/invertase/firebase/crashlytics/generated/jni",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "safeareacontext_autolinked_build",
+					"jsonFile" : "directory-safeareacontext_autolinked_build-Debug-150daf8cfd3083c2d4b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native-safe-area-context/android/src/main/jni",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "rnscreens_autolinked_build",
+					"jsonFile" : "directory-rnscreens_autolinked_build-Debug-193acf57b1d739752475.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native-screens/android/src/main/jni",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "rnsvg_autolinked_build",
+					"jsonFile" : "directory-rnsvg_autolinked_build-Debug-2f813a17a0eed925e228.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native-svg/android/src/main/jni",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "appmodules",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "appmodules::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appmodules-Debug-6feace1ac941f4ca26c0.json",
+					"name" : "appmodules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "react_codegen_AsyncStorageSpec::@15af80695a6281ecf900",
+					"jsonFile" : "target-react_codegen_AsyncStorageSpec-Debug-edfb50cf46dd9d6b8d42.json",
+					"name" : "react_codegen_AsyncStorageSpec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "react_codegen_RNFBAnalyticsTurboModules::@d42f4945bb4647de6fd3",
+					"jsonFile" : "target-react_codegen_RNFBAnalyticsTurboModules-Debug-88d24537f50bc784818a.json",
+					"name" : "react_codegen_RNFBAnalyticsTurboModules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "react_codegen_RNFBAppTurboModules::@a0d44c1163aba7af3ea1",
+					"jsonFile" : "target-react_codegen_RNFBAppTurboModules-Debug-85c0144ae2ebd897109c.json",
+					"name" : "react_codegen_RNFBAppTurboModules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "react_codegen_RNFBCrashlyticsTurboModules::@c2fccaf45646a3f21cd4",
+					"jsonFile" : "target-react_codegen_RNFBCrashlyticsTurboModules-Debug-e3445de26c6babc39db9.json",
+					"name" : "react_codegen_RNFBCrashlyticsTurboModules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "react_codegen_rnscreens::@25bcbd507e98d3a854ad",
+					"jsonFile" : "target-react_codegen_rnscreens-Debug-b289d0ee9159e915350b.json",
+					"name" : "react_codegen_rnscreens",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "react_codegen_rnsvg::@4f40eb209d0c0b4a3b65",
+					"jsonFile" : "target-react_codegen_rnsvg-Debug-3723ff064d62d063c557.json",
+					"name" : "react_codegen_rnsvg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "react_codegen_safeareacontext::@7984cd80db47aa7b952a",
+					"jsonFile" : "target-react_codegen_safeareacontext-Debug-71e19c04c1a00f2807d2.json",
+					"name" : "react_codegen_safeareacontext",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/poovarasan/Development/RN/ukpaycalc/android/app/.cxx/Debug/x4j3t6z5/x86_64",
+		"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

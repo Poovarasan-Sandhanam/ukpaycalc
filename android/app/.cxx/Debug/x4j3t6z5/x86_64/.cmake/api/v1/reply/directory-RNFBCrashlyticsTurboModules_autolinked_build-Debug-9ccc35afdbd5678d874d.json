@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "RNFBCrashlyticsTurboModules_autolinked_build",
+		"source" : "/Users/poovarasan/Development/RN/ukpaycalc/node_modules/@react-native-firebase/crashlytics/android/src/main/java/io/invertase/firebase/crashlytics/generated/jni"
+	}
+}
